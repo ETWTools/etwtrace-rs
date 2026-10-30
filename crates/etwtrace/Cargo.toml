@@ -1,0 +1,13 @@
+[package]
+name = "etwtrace"
+description = "A WPR-style recorder: SampledProfile, CSwitch and ReadyThread with stacks, hardware counters, and many more kernel events."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+etw.workspace = true
+
+[lints]
+workspace = true
